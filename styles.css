@@ -24,7 +24,44 @@ img {
 .links-container a {
   text-align: center;
   text-decoration: none;
-  padding: 1rem;
+  padding: 1.5rem;
   flex: 1;
 }
 
+/* Inicio Seccion Productos Destacados */
+
+.productos-dest-seccion{
+  background-color: aqua;
+  padding: 1rem;
+}
+
+.productos-dest-seccion h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.productos-dest-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center; 
+  gap: 1rem;
+}
+
+.producto {
+  background-color: white;
+  width: 70%;
+  max-width: 400px;
+  border-radius: 10px;
+}
+
+.producto-content {
+  font-size: 1.2rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.producto-content button {
+  padding: 1rem;
+  border-radius: 10px;
+  border: none;
+}
