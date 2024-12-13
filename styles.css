@@ -20,7 +20,7 @@ img {
 /* Inicio Seccion Productos Destacados */
 
 .productos-dest-seccion{
-  padding: 1rem;
+  padding: 2rem 1rem;
 }
 
 .productos-dest-seccion h2 {
@@ -92,10 +92,23 @@ img {
   color: #ffffff;
 }
 
+.footer p {
+  margin: 0;
+}
+
 @media (min-width: 736px) {
   .productos-dest-container {
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
+  }
+
+  .productos-dest-seccion h2 {
+    padding: 1rem;
+  }
+
+
+  .footer {
+    padding: 2rem;
   }
 }
 
@@ -105,6 +118,8 @@ img {
   }
 
   .secciones-adicionales-container {
+    max-width: 1000px;
+    margin: 0 auto;
     grid-template-columns: repeat(2, 1fr);
   }
 }
