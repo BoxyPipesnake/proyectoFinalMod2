@@ -15,32 +15,7 @@ img {
   background-color: #34495e;
 }
 
-.navbar {
-  display: flex;
-  flex-direction: column;
-}
 
-.navbar .logo {
-  order: 2;
-  text-align: center;
-}
-
-.logo h1, .links-container a {
-  color: #ffffff;
-}
-
-.navbar .links-container {
-  order: 1;
-  display: flex;
-}
-
-.links-container a {
-  text-align: center;
-  text-decoration: none;
-  padding: 1.5rem;
-  flex: 1;
-  font-weight: bold;
-}
 
 /* Inicio Seccion Productos Destacados */
 
@@ -111,8 +86,8 @@ img {
 
 .footer {
   text-align: center;
-  font-weight: bold;
   font-size: 1.2rem;
+  font-weight: bold;
   padding: 1rem;
   color: #ffffff;
 }
