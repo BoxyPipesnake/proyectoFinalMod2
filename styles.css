@@ -100,6 +100,13 @@ img {
   box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
 }
 
+
+/* Seccion adicionales */
+
+.secciones-adicionales-container .producto p {
+  color: #2c3e50;
+}
+
 /* Seccion del footer */
 
 .footer {
@@ -113,6 +120,7 @@ img {
 @media (min-width: 736px) {
   .productos-dest-container {
     grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
   }
 }
 
@@ -121,4 +129,7 @@ img {
     grid-template-columns: repeat(4, 1fr);
   }
 
+  .secciones-adicionales-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
