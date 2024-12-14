@@ -15,8 +15,9 @@ img {
 }
 
 .header, .footer {
-  background-color: #34495e;
+  background: linear-gradient(180deg, #34495e, #2c3e50);
 }
+
 
 
 
@@ -102,6 +103,39 @@ img {
   color: #2c3e50;
 }
 
+/* Seccion extra */
+
+.accesorios-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  gap: 1rem;
+}
+
+.accesorio-card {
+  width: 70%;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.accesorio-card-content {
+    font-size: 1.2rem;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+.accesorio-card-content h3 {
+  padding: 1.2rem;
+}
+
+.accesorio-card-content img {
+  max-height: 200px;
+  object-fit: cover;
+}
+
 /* Seccion del footer */
 
 .footer {
@@ -150,4 +184,21 @@ img {
     margin: 0 auto;
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .accesorios-container {
+    justify-items: unset;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .accesorios-container .accesorio-card:last-child{
+    grid-column: 1 / -1;
+  }
+
+  .accesorio-card .accesorio-card-content {
+    display: flex;
+    align-items: center;
+  }
+
+
+
 }
