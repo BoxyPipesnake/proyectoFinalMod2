@@ -52,6 +52,22 @@ img {
   font-size: 1.2rem;
   padding: 1rem;
   text-align: center;
+
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-destacado {
+  flex: 1;
+  margin-bottom: 0.5rem;
+  width: 300px;
+  object-fit: contain;
+}
+
+.producto-content h3{
+  font-size: 1.2rem;
 }
 
 .producto-content p {
@@ -59,9 +75,6 @@ img {
   color: #e74c3c;
 }
 
-.producto-content h3{
-  font-size: 1.2rem;
-}
 
 .producto-content button {
   font-size: 1rem;
