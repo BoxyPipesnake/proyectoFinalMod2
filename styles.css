@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
   background-color: #F5F5F5;
 }
 
@@ -56,6 +56,10 @@ img {
   color: #e74c3c;
 }
 
+.producto-content h3{
+  font-size: 1.2rem;
+}
+
 .producto-content button {
   font-size: 1rem;
   padding: 0.7rem;
@@ -102,6 +106,10 @@ img {
     gap: 2rem;
   }
 
+  .producto-content h3{
+    font-size: 1.4rem;
+  }
+
   .productos-dest-seccion h2 {
     padding: 1rem;
   }
@@ -115,6 +123,10 @@ img {
 @media (min-width: 992px) {
   .productos-dest-container {
     grid-template-columns: repeat(4, 1fr);
+  }
+
+  .producto-content h3{
+    font-size: 1.6rem;
   }
 
   .secciones-adicionales-container {
